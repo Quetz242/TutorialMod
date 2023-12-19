@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.quetz.tutorialmod.TutorialMod;
+import net.quetz.tutorialmod.block.custom.SoundBlock;
 import net.quetz.tutorialmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -36,7 +37,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> END_SAPPHIRE_ORE = registerBlock("end_sapphire_ore",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.AMETHYST_CLUSTER)));
-
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            ()-> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

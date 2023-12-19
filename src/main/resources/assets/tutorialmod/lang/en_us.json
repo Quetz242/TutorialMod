@@ -6,5 +6,9 @@
 
   "block.tutorialmod.sapphire_block": "Block of Sapphire",
   "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire",
-  "block.tutorialmod.sapphire_ore": "Sapphire Ore"
+  "block.tutorialmod.sapphire_ore": "Sapphire Ore",
+  "block.tutorialmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "item.tutorialmod.metal_detector": "Metal Detector",
+  "block.tutorialmod.sound_block": "Sound Block",
+  "item.tutorialmod.strawberry": "Strawberry"
 }
